@@ -8,7 +8,7 @@ public class CashbackHackServiceTest {
   public void remainWhenLessThanBoundary() {
   CashbackHackService service = new CashbackHackService();
 
-   CashbackHackService.getserviceremaim(13)
+   CashbackHackService.amount(13);
     
     int expected = 13;
     int amount = service.remain(); 

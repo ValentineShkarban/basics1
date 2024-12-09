@@ -9,6 +9,6 @@ public class CashbackHackServiceTest {
   @Test
   public void remainWhenLessThanBoundary() {
   CashbackHackService service = new CashbackHackService();
-    Assert.assertEquals(service.remain(987), 13);
+    Assert.assertEquals(service.remain(900), 100);
   }
 }

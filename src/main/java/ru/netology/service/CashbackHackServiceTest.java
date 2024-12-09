@@ -7,7 +7,7 @@ public class CashbackHackServiceTest {
   @Test
   public void remainWhenLessThanBoundary() {
   CashbackHackService service = new CashbackHackService();
-    int amount = 1000:
+    int amount = 1000;
 
    CashbackHackService.setamount(13);
     

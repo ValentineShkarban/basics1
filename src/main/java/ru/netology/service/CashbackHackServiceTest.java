@@ -1,6 +1,7 @@
 package ru.netology.service;
 
 import org.testng.annotations.Test;
+
 import static org.testng.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
@@ -8,8 +9,9 @@ public class CashbackHackServiceTest {
   public void remainWhenLessThanBoundary() {
   CashbackHackService service = new CashbackHackService();
 
-    int expected = 100;
-    int actual = service.remain(900);
-  assertEquals(actual, expected);
+    int expected = 13;
+    int actual = service.remain(987);
+    
+    assertEquals(actual, expected);
     }
 }

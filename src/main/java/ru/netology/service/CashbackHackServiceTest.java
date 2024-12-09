@@ -8,8 +8,8 @@ public class CashbackHackServiceTest {
   public void remainWhenLessThanBoundary() {
   CashbackHackService service = new CashbackHackService();
 
+    int expected = 13;
     int actual = service.remain(987);
-    int expected = 13; 
-  assertEquals(expected, actual);
+  assertEquals(actual, expected);
     }
 }
